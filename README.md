@@ -1,26 +1,36 @@
 # Desafio Frontend BIT - SP
 
-Para o teste, pedimos que seja entrega em até 3 dias, mas de acordo com a experiência e/ou ferramentas escolhidas por você, talvez precise de mais tempo para concluir o desafio, nos avise!
+## Juliano Padilha Marques da Silva
 
-Para ajudá-lo, temos algumas dicas:
+### Detalhes do projeto:
 
-O layout do desafio é [esse](https://drive.google.com/file/d/1K--L2EZTPBveC_u5tjOcEMZN6Yqn0fcD/view?usp=sharing)
+- Pré-processador CSS: SASS
+- Biblioteca JavaScript: React
 
-Aqui, o link para [API](http://www.mocky.io/v2/57dfec211000009020598073)
+### Observações
 
+- Utilização do create-react-app
+- Apesar do projeto ser pequeno, busquei fazer a separação de alguns elementos em componentes
+- Não utilizei Redux. =/
 
-## Desafio:
-Desenvolver a página seguindo o layout, que atenda os seguintes critérios:
+### Como rodar o projeto
 
-* Código HTML semântico
-* Utilize alguma metodologia CSS e um pré-processador, de preferência Sass
-* Faça que sua página tenha uma ótima experiência para o usuário, independente do dispositivo que ele esteja usando.
-* Utilize o framework React
-* Utilize algum module bundler, seja Webpack ou Brunch
-* O Javascript seja escrito utilizando as especificações do EcmaScript 2015 (ES6)
-* Caso haja necessidade, pode utilizar um Task Manager. Sugerimos o Gulp
-* Seria ótimo se escrevesse testes unitários.
-* Seria ótimo se utilizasse redux.
-* Crie um Fork desse repositório e nos envie um pull request
+- Dentro do projeto há uma pasta 'build' com o build do projeto
+- Ou é possível acessar o projeto funcionando pelo link: http://julianopadilha.com/b2w-challenge/?
 
-Não esqueça de ensinar como rodamos seu projeto 😎
+#### Passos:
+1º) Instalar um servidor local (caso ainda não tenha algum instalado) rodando no terminal o comando: *npm install -g serve*
+
+2°) Acessar a pasta do projeto
+
+3º) Levantar o servidor rodando no terminal o comando: *serve -s build*
+
+Para rodar o projeto como desenvolvedor:
+
+1º) Acessar a pasta do projeto
+
+2º) Rodar no terminal o comando *npm install* ou *yarn*
+
+3º) Rodar no terminal o comando *npm start* ou *yarn start*
+
+Qualquer dúvida, fico a disposição! 
