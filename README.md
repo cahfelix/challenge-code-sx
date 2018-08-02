@@ -23,4 +23,14 @@ Desenvolver a página seguindo o layout, que atenda os seguintes critérios:
 * Seria ótimo se utilizasse redux.
 * Crie um Fork desse repositório e nos envie um pull request
 
+
+## Detalhes do que foi feito:
+
+Fiz quase todos os itens pedidos só não escrevi testes unitários e nem utilizei redux.
+
 Não esqueça de ensinar como rodamos seu projeto 😎
+
+Só utilizar esses três comandos:
+* cd challenge-b2w
+* npm install
+* npm start
