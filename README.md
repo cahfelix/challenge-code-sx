@@ -31,6 +31,6 @@ Fiz quase todos os itens pedidos só não escrevi testes unitários e nem utiliz
 Não esqueça de ensinar como rodamos seu projeto 😎
 
 Só utilizar esses três comandos:
-cd challenge-b2w
-npm install
-npm start
+* cd challenge-b2w
+* npm install
+* npm start
