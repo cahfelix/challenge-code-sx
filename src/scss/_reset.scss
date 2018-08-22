@@ -1,0 +1,33 @@
+/* Reset styles */
+
+body, figure, h1, h2, h3, p, ul, li, a {
+	padding: 0px;
+	margin: 0px;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+img {
+	max-width: 100%;
+    display: block;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	font-size: 3em;
+    line-height: 1;
+}
+
+* {
+	box-sizing: border-box;
+}
