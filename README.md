@@ -24,3 +24,10 @@ Desenvolver a página seguindo o layout, que atenda os seguintes critérios:
 * Crie um Fork desse repositório e nos envie um pull request
 
 Não esqueça de ensinar como rodamos seu projeto 😎
+
+###Rodar o Projeto:
+
+Estar na pasta do projeto e rodar os comandos:
+
+* npm install
+* npm run dev 

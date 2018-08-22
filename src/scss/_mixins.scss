@@ -1,0 +1,65 @@
+@import 'variables';
+
+// Display flex
+@mixin flex {
+	display: flex;
+}
+
+// Box with icon and title
+@mixin boxTitle {
+    display: flex;
+    align-items: center;
+	margin-bottom: 25px;
+}
+
+// Skills
+@mixin skills {
+	@include flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+// Box icon with images
+@mixin iconBox($color) {
+	margin-right: 20px;
+	background: $color;
+	border-radius: $border-icon;
+	width: 75px;
+	height: 75px;
+}
+
+// Icon 1
+@mixin imgIcon {
+	padding: 10px;
+	margin: auto;
+}
+
+// Icon 2
+@mixin imgIcon-2 {
+	padding: 20px;
+	margin: auto;
+}
+
+// Title with icon
+@mixin title($color) {
+    font-size: 1.75em;
+    text-transform: uppercase;
+    color: $color;
+}
+
+// Data 
+@mixin date {
+    letter-spacing: .8px;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #888;
+    text-align: center;
+    width: 75px;
+}
+
+// Tipography function
+@function em($pixel, $contexto: 16) {
+	@return $pixel / $contexto + em;
+}
