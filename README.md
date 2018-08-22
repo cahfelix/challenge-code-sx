@@ -25,7 +25,7 @@ Desenvolver a página seguindo o layout, que atenda os seguintes critérios:
 
 Não esqueça de ensinar como rodamos seu projeto 😎
 
-###Rodar o Projeto:
+### Rodar o Projeto:
 
 Estar na pasta do projeto e rodar os comandos:
 
